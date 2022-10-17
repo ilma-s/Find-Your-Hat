@@ -9,7 +9,7 @@ class Field {
     constructor(row, column) {
         this.row = row;
         this.column = column;
-        this.startingRow = 0; // pocetne koordinate * koje se mijenjaju
+        this.startingRow = 0; // the starting coordinates which change throughout the game
         this.startingColumn = 0;
         this.field = this.generateField(row, column);
     }
